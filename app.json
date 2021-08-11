@@ -34,7 +34,7 @@
       },
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations.",
-         "required": false,
+         "required": True,
          "value": ""
       },
       "ENV": {
