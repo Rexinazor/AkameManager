@@ -503,7 +503,7 @@ def fed_ban(bot: Bot, update: Update, args: List[str]):
 
 	if fban:
 		fed_name = info['fname']
-		#https://t.me/OnePunchSupport/41606 // https://t.me/OnePunchSupport/41619
+		
 		#starting = "The reason fban is replaced for {} in the Federation <b>{}</b>.".format(user_target, fed_name)
 		#send_message(update.effective_message, starting, parse_mode=ParseMode.HTML)
 
@@ -516,7 +516,7 @@ def fed_ban(bot: Bot, update: Update, args: List[str]):
 			return
 		x = sql.fban_user(fed_id, fban_user_id, fban_user_name, fban_user_lname, fban_user_uname, reason, int(time.time()))
 		if not x:
-			message.reply_text("Failed to ban from the federation! If this problem continues, contact @OnePunchSupport.")
+			message.reply_text("Failed to ban from the federation! If this problem continues, contact @BHZBot_Support.")
 			return
 
 		fed_chats = sql.all_fed_chats(fed_id)
@@ -619,7 +619,7 @@ def fed_ban(bot: Bot, update: Update, args: List[str]):
 
 	x = sql.fban_user(fed_id, fban_user_id, fban_user_name, fban_user_lname, fban_user_uname, reason, int(time.time()))
 	if not x:
-		message.reply_text("Failed to ban from the federation! If this problem continues, contact @OnePunchSupport.")
+		message.reply_text("Failed to ban from the federation! If this problem continues, contact @BHZBot_Support.")
 		return
 
 	fed_chats = sql.all_fed_chats(fed_id)
@@ -911,7 +911,7 @@ def set_frules(bot: Bot, update: Update, args: List[str]):
 			markdown_rules = markdown_parser(txt, entities=msg.parse_entities(), offset=offset)
 		x = sql.set_frules(fed_id, markdown_rules)
 		if not x:
-			update.effective_message.reply_text("Whoa! There was an error while setting federation rules! If you wondered why please ask it in @OnePunchSupport !")
+			update.effective_message.reply_text("Whoa! There was an error while setting federation rules! If you wondered why please ask it in @BHZBot_Support !")
 			return
 
 		rules = sql.get_fed_info(fed_id)['frules']
