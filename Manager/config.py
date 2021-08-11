@@ -13,7 +13,7 @@ class Config(object):
     # REQUIRED
     API_KEY = "1880462737:AAFfviTXYI5KY9zVN8cznVpdimNE0SK9Zqw"
     OWNER_ID = "1866542500"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Avrzel"  #Just write it without the @ ex "Sawada"
+    OWNER_USERNAME = "Avrzel"  #Just write it without the @ ex "xyz"
     SUPPORT_CHAT = "BHZBot_support" # Your telegram support chat username, must have the "@" Example: @MyBotSupportGroupChat
 
     # RECOMMENDED
