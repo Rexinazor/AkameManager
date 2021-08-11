@@ -18,8 +18,8 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://phfzgnhf:yZqY10tmLDviJW7cZCiCcQfO6d48cav3@batyr.db.elephantsql.com/phfzgnhf'  # needed for any database modules
-    MESSAGE_DUMP = -1001452059200  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = -1001452059200 #Channel ID here with the hyphen like -123456789
+    MESSAGE_DUMP = -1001270919103  # needed to make sure 'save from' messages persist
+    GBAN_LOGS = -1001270919103 #Channel ID here with the hyphen like -123456789
     LOAD = []
     NO_LOAD = ['translation', '-1001452059200rss', 'cleaner', 'feds']   
     WEBHOOK = False
