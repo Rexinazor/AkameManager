@@ -31,10 +31,10 @@ Hit /help to find out more about how to use me on full potential.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add to your group ➕️", url="t.me/Miku_Ro_bot?startgroup=true"),
+            text="➕️ Add to your group ➕️", url="t.me/{}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="Miku_"),
+        InlineKeyboardButton(text="About", callback_data="Akame_"),
         InlineKeyboardButton(
             text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
