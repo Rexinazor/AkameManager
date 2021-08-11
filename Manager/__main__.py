@@ -52,7 +52,7 @@ buttons = [
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-Akame An Group Management Bot with advanced features. 
+Akame, An Group Management Bot with advanced features. 
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
