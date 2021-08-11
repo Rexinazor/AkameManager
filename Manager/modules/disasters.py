@@ -27,16 +27,16 @@ def check_user_id(user_id: int, bot: Bot) -> Optional[str]:
     return reply
 
 #I added extra new lines
-disasters = """ Saitama has bot access levels we call as *"Disaster Levels"*
-\n*Heroes Association* - Devs who can access the bots server and can execute, edit, modify bot code. Can also manage other Disasters
+disasters = """ Akame has bot access levels we call as *"Disaster Levels"*
+\n*BioHazard* - Devs who can access the bots server and can execute, edit, modify bot code. Can also manage other Disasters
 \n*God* - Only one exists, bot owner. 
-Owner has complete bot access, including bot adminship in chats Saitama is at.
-\n*Dragons* - Have super user access, can gban, manage disasters lower than them and are admins in Saitama.
-\n*Demons* - Have access go globally ban users across Saitama.
+Owner has complete bot access, including bot adminship in chats Akame is at.
+\n*Dragons* - Have super user access, can gban, manage disasters lower than them and are admins in Akame.
+\n*Demons* - Have access go globally ban users across Akame.
 \n*Tigers* - Same as wolves but can unban themselves if banned.
 \n*Wolves* - Cannot be banned, muted flood kicked but can be manually banned by admins.
-\n*Disclaimer*: The disaster levels in Saitama are there for troubleshooting, support, banning potential scammers.
-Report abuse or ask us more on these at [Heroes Association](https://t.me/OnePunchSupport).
+\n*Disclaimer*: The disaster levels in Akame are there for troubleshooting, support, banning potential scammers.
+Report abuse or ask us more on these at [BioHazard Bots](https://t.me/BioHazard_Bots).
 """
 # do not async, not a handler 
 def send_disasters(update):
@@ -482,7 +482,7 @@ def sudolist(bot: Bot, update: Update):
 @whitelist_plus
 def devlist(bot: Bot, update: Update):
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
-    reply = "<b>Hero Association Members ⚡️:</b>\n"
+    reply = "<b>BioHazard Admins ⚡️:</b>\n"
     for each_user in true_dev:
         user_id = int(each_user)
         try:
@@ -494,7 +494,7 @@ def devlist(bot: Bot, update: Update):
 
 
 __help__ = f"""
- • `/heroes`*:* Lists all Hero Association members.
+ • `/heroes`*:* Lists all BioHazard Admins.
  • `/dragons`*:* Lists all Dragon disasters.
  • `/demons`*:* Lists all Demon disasters.
  • `/tigers`*:* Lists all Tigers disasters.
