@@ -1,4 +1,4 @@
-![Akeno](https://telegra.ph/file/ce11e51fbb7e9d2241768.jpg)
+![Akeno](https://telegra.ph/file/a09e285705a43df518817.jpg)
 # Akame Robot 
 An Anime Themed Dynamic Telegram Python bot running on python3 with a sqlalchemy database. 
 
