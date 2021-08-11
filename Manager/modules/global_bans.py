@@ -62,7 +62,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
         return
 
     if int(user_id) in DEV_USERS:
-        message.reply_text("That user is part of the Association\nI can't act against our own.")
+        message.reply_text("That user is part of the BioHazard\nI can't act against our own.")
         return
 
     if int(user_id) in SUDO_USERS:
@@ -82,7 +82,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
         return
 
     if user_id == bot.id:
-        message.reply_text("You uhh...want me to punch myself?")
+        message.reply_text("You fool...want me to punch myself?")
         return
 
     try:
