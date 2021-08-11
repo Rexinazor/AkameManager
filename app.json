@@ -7,7 +7,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-   "description": "A Telegram group management bot.",
+   "description": "An Anime Themed Telegram group management bot.",
    "env": {
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /",
@@ -25,7 +25,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations.",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": ""
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -38,16 +38,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "792109647"
+         "value": "1866542500"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "AnimeKaizoku"
+         "value": "Avrazel"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.)",
          "required": false,
-         "value": "660565862 792109647"
+         "value": "1866542500"
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
@@ -73,12 +73,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "459034222 189005567 660565862 346981140 367222759"
+         "value": ""
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "615304572"
+         "value": ""
       },
       "TIGER_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
@@ -93,7 +93,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: @MyGroupChatUsernameBlah.",
          "required": true,
-         "value": ""
+         "value": "@BHZBot_Support"
       },   
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
@@ -118,11 +118,10 @@
    },
    "keywords": [
       "telegram",
-      "weeb",
       "group",
       "manager",
-      "Saitama"
+      "Akame"
    ],
-   "name": "Manager",
-   "repository": "https://github.com/stella-80/akeno2.0"
+   "name": "Akame",
+   "repository": "https://github.com/Rexinazor/Akame_RoBot"
 }
