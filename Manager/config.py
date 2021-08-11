@@ -12,9 +12,9 @@ class Config(object):
 
     # REQUIRED
     API_KEY = "1880462737:AAFfviTXYI5KY9zVN8cznVpdimNE0SK9Zqw"
-    OWNER_ID = "1461968113"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "itzz_axel"  #Just write it without the @ ex "Sawada"
-    SUPPORT_CHAT = "Vexana_support" # Your telegram support chat username, must have the "@" Example: @MyBotSupportGroupChat
+    OWNER_ID = "1866542500"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "Avrzel"  #Just write it without the @ ex "Sawada"
+    SUPPORT_CHAT = "BHZBot_support" # Your telegram support chat username, must have the "@" Example: @MyBotSupportGroupChat
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://phfzgnhf:yZqY10tmLDviJW7cZCiCcQfO6d48cav3@batyr.db.elephantsql.com/phfzgnhf'  # needed for any database modules
@@ -27,10 +27,10 @@ class Config(object):
 
     # OPTIONAL
     #ID Seperation format [1,2,3,4]
-    SUDO_USERS = [1461968113]  # List of id's -  (not usernames) for users which have sudo access to the bot.
-    DEV_USERS = [1461968113]  # List of id's - (not usernames) for developers who will have the same perms as the owner
-    SUPPORT_USERS = [1461968113]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = [1461968113]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = [1866542500]  # List of id's -  (not usernames) for users which have sudo access to the bot.
+    DEV_USERS = [1866542500]  # List of id's - (not usernames) for developers who will have the same perms as the owner
+    SUPPORT_USERS = [1866542500]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [1866542500]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
