@@ -125,7 +125,7 @@ def list_chatbot_chats(bot: Bot, update: Update):
 __mod_name__ = "Chatbot"
 
 __help__ = f"""
-Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a more interactive group chat experience.
+Chatbot utilizes the CoffeeHouse API and allows Akame to talk and provides a more interactive group chat experience.
 
 *Commands:* 
 *Admins only:*
@@ -136,7 +136,6 @@ Chatbot utilizes the CoffeeHouse API and allows Saitama to talk and provides a m
  • `/listaichats`*:* Lists the chats the chatmode is enabled in.
 
 Reports bugs at {SUPPORT_CHAT}
-*Powered by CoffeeHouse* (https://coffeehouse.intellivoid.net/) from @Intellivoid
 """         
 
 
