@@ -48,20 +48,20 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1866542500"
+         "value": "1954447359"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "Avrazel"
+         "value": "ZenoByte"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.)",
          "required": false,
-         "value": "1866542500"
+         "value": "1954447359"
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
-         "value": "-123"
+         "value": "-1001742680213"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -103,7 +103,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: @MyGroupChatUsernameBlah.",
          "required": true,
-         "value": "@BHZBot_Support"
+         "value": "@HazardBot_Support"
       },   
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
